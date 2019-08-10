@@ -1,36 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Volkhov:400,700&display=swap');
+
 body {
-    background-color: cadetblue;
+    background: url("../images/background.jpg") no-repeat fixed center;
     color: black;
 }
 
 .container {
     background: lightgrey;
-    padding: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: black solid 10px;
+    height: 90vh;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 54px;
     padding: 10px;
     font-weight: 800px;
+    font-family: 'Permanent Marker', cursive;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 li {
-    color: slateblue;
+    color: purple;
     font-weight: 600;
-    padding: 5px;
+    padding: 3px;
+    text-align: left;
+    list-style-position: inside;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+a {
+    color: teal;
+    font-weight: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+    font-size: 14px;
 }
 
 h2 {
-    padding: 5px;
+    margin: 10px, 15px, 0px, 10px;
     font-size: 36;
+    font-family: 'Volkhov', serif;
+    font-weight: 800px;
+    margin: 0 auto;
 }
 img {
-    padding: 10px, 0px;
+    padding: 10px, 10px;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 20px;    
+}
+
+h3 {
+
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
 }
 
 p {
-    padding: 5px, 15px, 5px, 0px;
-    text-align: left;
-    font-weight: 500px;
-    font-size: 20px;
+    font-weight: 800px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 75%;
+    line-height: 1.8;
+}
+.col {
+    padding: 5px;
+}
+
+ul {
+    margin-left: 15px;
+    margin-top: 5px;
 }
