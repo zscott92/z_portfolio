@@ -1,0 +1,12 @@
+body {
+    background-color: blue;
+    color: black;
+}
+
+.container {
+    background: lightgrey;
+}
+
+header {
+    font-size: 48px;
+}
