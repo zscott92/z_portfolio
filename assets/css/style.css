@@ -3,6 +3,7 @@
 body {
     background: url("../images/background.jpg") no-repeat fixed center;
     color: black;
+    opacity: 0.9;
 }
 
 .container {
@@ -28,7 +29,7 @@ li {
     padding: 3px;
     text-align: left;
     list-style-position: inside;
-    margin-left: 25%;
+    margin-left: 20%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
 }
@@ -71,8 +72,9 @@ p {
     margin: 0 auto;
     margin-bottom: 15px;
     margin-top: 15px;
-    width: 75%;
+    width: 78%;
     line-height: 1.8;
+    text-align: justify;
 }
 .col {
     padding: 5px;
@@ -81,4 +83,5 @@ p {
 ul {
     margin-left: 15px;
     margin-top: 5px;
+    list-style-type: none;
 }
