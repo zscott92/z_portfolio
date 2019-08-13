@@ -1,40 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Volkhov:400,700&display=swap');
 
-html, body {
-    margin: 0;
-    height: 100%;
-}
 
 body {
     background: url("../images/background.jpg") no-repeat fixed center;
     color: black;
     opacity: 0.9;
-    padding: 1%;
+    position: fixed;
+    width: 100%;
 }
 
 .container{
     background: lightgrey;
-    border: black solid 2.5%;
-    width: 75%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: black solid 3px;
     flex-direction: column;
-    height: 90%;
-    margin: 0 auto;
-    box-sizing: border-box;
+    text-align: center;
+    margin: 5% auto;
     padding: 1%;
 }
 
+
 .row {
     flex-direction: row;
-  align-items: stretch;
-  width: 90%;
-  display: flex;
-  margin: auto;
-  overflow: hidden;
-  padding: 1%;
-
+  width: 75%;
+  display: flexbox;
+  flex-direction: unset;
+margin: 0 auto;
 }
 
 h1 {
@@ -42,6 +32,7 @@ h1 {
     font-weight: 800px;
     font-family: 'Permanent Marker', cursive;
     margin: 0 auto;
+    padding: 2%;
 }
 
 li {
@@ -51,7 +42,8 @@ li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1em;
+    padding: 2%;
 }
 
 a {
@@ -65,12 +57,14 @@ img {
     margin: 0 auto;
     height: 260px;
     width: 260px;
+    padding: 2%;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
+    padding: 2%;
 }
 
 p {
@@ -80,16 +74,20 @@ p {
     font-family: 'Volkhov', serif;
     text-align: justify;
     flex: auto;
-    font-size: 120%;
+    font-size: 110%;
     flex-wrap: wrap;
-    width: 90%;
+    width: 60%;
+    padding: 2%;
 }
 
 ul {
     list-style-type: none;
-    display: contents;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2%;
 }
 
 
