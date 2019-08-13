@@ -1,1 +1,1 @@
-A brief bio about me, where I provide pertinent information for a job search
+A brief bio about me, where I provide pertinent information for  job search
