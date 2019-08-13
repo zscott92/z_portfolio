@@ -1,87 +1,145 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Volkhov:400,700&display=swap');
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 body {
     background: url("../images/background.jpg") no-repeat fixed center;
     color: black;
     opacity: 0.9;
+    padding: 1%;
 }
 
-.container {
+.container{
     background: lightgrey;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border: black solid 10px;
-    height: 90vh;
+    border: black solid 2.5%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.row {
+    flex-direction: row;
+  align-items: stretch;
+  width: 90%;
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+  padding: 1%;
+
 }
 
 h1 {
-    font-size: 54px;
-    padding: 10px;
+    font-size: 3em;
     font-weight: 800px;
     font-family: 'Permanent Marker', cursive;
     margin: 0 auto;
-    margin-bottom: 15px;
 }
 
 li {
     color: purple;
     font-weight: 600;
-    padding: 3px;
-    text-align: left;
-    list-style-position: inside;
-    margin-left: 20%;
+    /* list-style-position: inside; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
+    text-align: center;
+    font-size: 0.9em;
 }
 
 a {
     color: teal;
-    font-weight: 500px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: purple;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 
-h2 {
-    margin: 10px, 15px, 0px, 10px;
-    font-size: 36;
-    font-family: 'Volkhov', serif;
-    font-weight: 800px;
-    margin: 0 auto;
-}
 img {
-    padding: 10px, 10px;
-    height: 250px;
-    width: 250px;
     margin: 0 auto;
-    margin-bottom: 20px;    
+    height: 260px;
+    width: 260px;
 }
 
 h3 {
-
-    font-size: 30px;
-    text-align: center;
+    font-size: 2em;
     font-family: 'Permanent Marker', cursive;
+    text-align: center;
 }
 
 p {
     font-weight: 800px;
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: bold;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    width: 78%;
     line-height: 1.8;
+    font-family: 'Volkhov', serif;
     text-align: justify;
-}
-.col {
-    padding: 5px;
+    flex: auto;
+    font-size: 120%;
+    flex-wrap: wrap;
+    width: 90%;
 }
 
 ul {
-    margin-left: 15px;
-    margin-top: 5px;
     list-style-type: none;
+    display: contents;
+    text-align: center;
+    font-size: 1.2em;
 }
+
+
+
+@media only screen and (max-width: 830px) {
+
+    body {
+        padding: 1%;
+    }
+    .container {
+    /* margin: 0 auto; */
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    }
+
+    h1 {
+        font-size: 2.0em;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+    }
+
+    p {
+        font-size: 0.72em;
+        width: 65%;
+    }
+
+    .col {
+        /* display: grid; */
+    /* grid-template-columns: 1fr; */
+    flex-wrap: wrap;
+    }
+    .li {
+        text-align: left;
+    }
+
+    h3{
+        font-size: 1em;
+    }
+    
+    ul {
+        font-size: 0.7em;
+    }
+
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
