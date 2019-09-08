@@ -1,0 +1,24 @@
+{
+  "name": "Portfolio_Page",
+  "version": "1.0.0",
+  "description": "A brief bio about me, where I provide pertinent information for  job search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zscott92/Portfolio_Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zscott92/Portfolio_Page/issues"
+  },
+  "homepage": "https://github.com/zscott92/Portfolio_Page#readme",
+  "dependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "devDependencies": {}
+}
