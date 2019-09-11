@@ -52,7 +52,7 @@ li {
     font-size: 1.1em;
     margin-top: 0.5%;
     text-align: left;
-    padding-left: 28%;
+    padding-left: 27%;
 }
 
 a {
@@ -64,8 +64,8 @@ a {
 
 img {
     margin: 0 auto;
-    height: 295px;
-    width: 265px;
+    height: 280px;
+    width: 260px;
     padding: 1.5%;
     position: flex;
 }
@@ -89,7 +89,7 @@ p {
     flex-wrap: wrap;
     width: 80%;
     color: darkcyan;
-    font-size: 0.9em;
+    font-size: 1em;
     padding: 0.3%;
 }
 
