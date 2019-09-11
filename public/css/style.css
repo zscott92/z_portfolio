@@ -52,21 +52,21 @@ li {
     font-size: 1.1em;
     margin-top: 0.5%;
     text-align: left;
-    padding-left: 27%;
+    padding-left: 23%;
 }
 
 a {
     color: teal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: purple;
+    color: lightgrey;
     font-size: 0.7em;
 }
 
 img {
     margin: 0 auto;
-    height: 280px;
-    width: 260px;
-    padding: 1.5%;
+    height: 260px;
+    width: 245px;
+    padding: 1%;
     position: flex;
 }
 
@@ -87,9 +87,9 @@ p {
     text-align: justify;
     flex: auto;
     flex-wrap: wrap;
-    width: 80%;
+    width: 70%;
     color: darkcyan;
-    font-size: 1em;
+    font-size: 0.9em;
     padding: 0.3%;
 }
 
@@ -104,7 +104,7 @@ ul {
 }
 
 a {
-    color: plum;
+    color: lightgrey;
 }
 
 #bio {
