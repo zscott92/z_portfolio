@@ -22,6 +22,7 @@ body {
     background: #282828;
     padding: 15px;
     width: 90%;
+    margin-bottom: 2%;
 }
 
 
@@ -31,15 +32,16 @@ body {
   display: flexbox;
   flex-direction: unset;
 margin: 0 auto;
+padding: 5px;
 }
 
 h1 {
     font-size: 2em;
     font-weight: 800px;
     font-family: 'Permanent Marker', cursive;
-    margin: 0 auto;
     padding: 1.2%;
-    color: lightgrey;
+    color: yellow;
+    justify-content: center;
 }
 
 li {
@@ -47,9 +49,10 @@ li {
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: .8em;
+    font-size: 1.1em;
     margin-top: 0.5%;
-    text-align: center;
+    text-align: left;
+    padding-left: 28%;
 }
 
 a {
@@ -61,8 +64,8 @@ a {
 
 img {
     margin: 0 auto;
-    height: 300px;
-    width: 250px;
+    height: 295px;
+    width: 265px;
     padding: 1.5%;
     position: flex;
 }
@@ -85,14 +88,14 @@ p {
     flex: auto;
     flex-wrap: wrap;
     width: 80%;
-    color: lightgrey;
+    color: darkcyan;
     font-size: 0.9em;
-    padding: 0.6%;
+    padding: 0.3%;
 }
 
 ul {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     font-size: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -101,11 +104,19 @@ ul {
 }
 
 a {
-    color: darkgoldenrod;
+    color: plum;
 }
 
 #bio {
     position: flex;
     padding: 0.5%;
+}
+
+b {
+    color: teal;
+}
+
+#images {
+    padding: 1%;
 }
 
