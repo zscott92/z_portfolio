@@ -25,7 +25,7 @@ body {
   height: 96vh;
   box-shadow: 0 0 15px 5px #111111;
   opacity: 0.97;
-  width: 78%;
+  width: fit-content;
   -webkit-font-smoothing: antialiased;
   -moz-background-clip: text;
   border: lightgrey 2px;
@@ -39,6 +39,8 @@ body {
   opacity: 1;
   box-shadow: 0 0 150px 15px black;
   justify-content: space-evenly;
+  overflow: auto;
+  overflow-y: hidden;
 }
 
 .row {
@@ -51,7 +53,9 @@ body {
 }
 
 .col {
-  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
 }
 
 h1 {
@@ -102,7 +106,7 @@ h3 {
   font-weight: 800;
   text-shadow: 1.8px 1.8px black;
   text-align: center;
-  margin-bottom: 0%;
+  flex-wrap: nowrap;
 }
 
 p {
@@ -120,6 +124,7 @@ p {
   padding: 0.5%;
   font-weight: 450;
   text-shadow: 2.25px 2.25px black;
+  position: flex;
 }
 
 li {
@@ -129,16 +134,15 @@ li {
   padding: 5px;
   font-size: 1.2em;
   display: flex;
-  margin: 0 auto;
+  width: fit-content;
+  display: grid;
 }
 
 ul {
-  list-style-type: none;
-  text-align: center;
+  list-style-type: initial;
   font-size: 1.1em;
   flex-wrap: wrap;
   flex-direction: column;
-  display: grid;
 }
 
 a {
@@ -148,7 +152,7 @@ a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-shadow: 0.2px 0.2px lightgrey;
-  position: float;
+  flex-wrap: nowrap;
 }
 
 #bio {
