@@ -12,19 +12,22 @@ body {
   
     display: flex;
     align-items: center;
-    background: url("../assets/images/background.jpg") no-repeat fixed center;
-    opacity: 85%;
+    background: url("../images/background.jpg") no-repeat fixed center;
+    opacity: 70%;
+    filter: blur(1.5erm);
   }
 
 
 .container {
     background: #282828;
+    padding: 15px;
+    width: 90%;
 }
 
 
 .row {
     flex-direction: row;
-  width: 75%;
+  width: 80%;
   display: flexbox;
   flex-direction: unset;
 margin: 0 auto;
@@ -35,7 +38,7 @@ h1 {
     font-weight: 800px;
     font-family: 'Permanent Marker', cursive;
     margin: 0 auto;
-    padding: 1%;
+    padding: 1.2%;
     color: lightgrey;
 }
 
@@ -43,10 +46,10 @@ li {
     color: purple;
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: underline;
     text-align: center;
     font-size: .8em;
-    padding: 1%;
+    margin-top: 0.5%;
+    text-align: center;
 }
 
 a {
@@ -58,31 +61,33 @@ a {
 
 img {
     margin: 0 auto;
-    height: 230px;
-    width: 230px;
-    padding: 2%;
+    height: 300px;
+    width: 250px;
+    padding: 1.5%;
     position: flex;
 }
 
 h3 {
-    font-size: 1.6em;
-    font-family: 'Permanent Marker', cursive;
+    font-size: 1.1em;
+    font-family: cursive;
     text-align: center;
-    color: lightgrey;
+    color: yellow;
+    font-weight: 700;
+    text-align: center;
 }
 
 p {
     font-weight: 800px;
     font-style: bold;
     line-height: 1.8;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
     flex: auto;
     flex-wrap: wrap;
     width: 80%;
-    padding: 0.5%;
     color: lightgrey;
     font-size: 0.9em;
+    padding: 0.6%;
 }
 
 ul {
@@ -92,11 +97,15 @@ ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 0.5%;
-    color: lightgrey;
+    text-decoration: underline teal;
 }
 
 a {
-    color: teal;
+    color: darkgoldenrod;
+}
+
+#bio {
+    position: flex;
+    padding: 0.5%;
 }
 
