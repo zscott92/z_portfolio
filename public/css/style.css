@@ -34,7 +34,7 @@ body {
 .container {
   background: #282828;
   padding: 35px, 10px, 75px, 10px;
-  width: auto;
+  width: 100%;
   height: 92vh;
   opacity: 1;
   box-shadow: 0 0 150px 15px black;
@@ -45,7 +45,7 @@ body {
 
 .row {
   flex-direction: row;
-  width: 85%;
+  width: 83%;
   display: flexbox;
   flex-direction: unset;
   margin: 0 auto;
@@ -56,6 +56,7 @@ body {
   margin: 0 auto;
   display: grid;
   justify-content: center;
+  align-content: space-between;
 }
 
 h1 {
@@ -85,17 +86,13 @@ jumbotron {
   width: 100vw;
 }
 
-#title {
-  flex-direction: column;
-}
 img {
   margin: 0 auto;
-  height: 290px;
-  width: 260px;
+  height: 270px;
+  width: 245px;
   position: flex;
   border: black 4px solid;
-  margin-top:5px;
-  margin-bottom:4px;
+  margin-bottom: 2px;
 }
 
 h3 {
@@ -119,19 +116,20 @@ p {
   flex: auto;
   flex-wrap: wrap;
   width: 67%;
-  color: #989898;
-  font-size: 0.95em;
+  color: lightgrey;
+  font-size: 0.9em;
   padding: 0.5%;
-  font-weight: 450;
-  text-shadow: 2.25px 2.25px black;
+  font-weight: 400;
+  text-shadow: 2.3px 2.3px black;
   position: flex;
+  font-size: 20px;
 }
 
 li {
   color: darkgoldenrod;
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 5px;
+  padding: 2.5%;
   font-size: 1.2em;
   display: flex;
   width: fit-content;
@@ -140,7 +138,7 @@ li {
 
 ul {
   list-style-type: initial;
-  font-size: 1.1em;
+  font-size: 1em;
   flex-wrap: wrap;
   flex-direction: column;
 }
@@ -151,7 +149,7 @@ a {
   font-weight: 600;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  text-shadow: 0.2px 0.2px lightgrey;
+  text-shadow: 0.2px 0.1px black;
   flex-wrap: nowrap;
 }
 
@@ -162,7 +160,7 @@ a {
 
 b {
   color: lightgray;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 #images {
@@ -170,4 +168,14 @@ b {
   width: 72%;
   margin-bottom: 1%;
   margin-top: 1%;
+}
+
+h4 {
+  font-size: 0.75em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: teal;
+  padding-top: 4.5%;
+  text-shadow: 0.4px 0.3px black;
+  font-weight: 900;
 }
