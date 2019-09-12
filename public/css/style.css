@@ -22,7 +22,7 @@ body {
   align-items: center;
   background: #111111;
   filter: blur(1.5erm);
-  height: 96vh;
+  height: 95vh;
   box-shadow: 0 0 15px 5px #111111;
   opacity: 0.97;
   width: fit-content;
@@ -138,7 +138,7 @@ li {
 
 ul {
   list-style-type: initial;
-  font-size: 1em;
+  font-size: 1.2em;
   flex-wrap: wrap;
   flex-direction: column;
 }
