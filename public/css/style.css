@@ -3,26 +3,29 @@ body {
   opacity: 0.9;
   position: fixed;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .navbar {
-  display: fixed;
+  /* display: fixed; */
   justify-content: space-between;
   justify-content: center;
   height: 100%;
   margin: 0;
+  width: 100vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: linear-gradient(indigo, teal, darkturquoise, indigo);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: linear-gradient(indigo, cadetblue, indigo);
 }
 
 .vertical-center {
-  justify-content: space-evenly;
-  display: flex;
+  /* display: fixed; */
   background: #111111;
   filter: blur(1.5erm);
-  height: fit-content;
   box-shadow: 0 0 15px 5px #111111;
   opacity: 0.97;
   margin-top: 0;
@@ -30,19 +33,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-background-clip: text;
   border: lightgrey 2px;
+  padding: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction:column;
+}
+
+#parent {
+  /* background-color: blue; */
+  padding: 10px;
+  /* height: 500px; */
+  overflow: hidden;
+  display: flex;
+  flex-direction:column;
 }
 
 
+
+
 .container {
+  padding: 10px;
+  background-color: red;
+  /* flex-grow:1; */
   background: #443344;
+  /* position: fixed; */
   padding: 35px, 10px, 75px, 20px;
   width: 100%;
   height: 95vh;
   box-shadow: 0 0 150px 15px black;
   justify-content: space-evenly;
   overflow: scroll; 
-  overflow-y: hidden;
+  /* overflow-y: scroll; */
   overflow-x: hidden;
+  flex-grow: 1;
 }
 
 .row {
@@ -87,7 +110,7 @@ a {
 }
 
 .jumbotron {
-  width: 77%;
+  width: 90%;
   background-image: url("../images/stars_background.jpg");
   margin-top: 0%;
   height: fit-content;
@@ -115,7 +138,7 @@ h3 {
   font-size: 1.3em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: snow;
+  color: #989898;
   font-weight:800;
   text-shadow: 1.8px 1.8px black;
   text-align: center;
@@ -123,6 +146,7 @@ h3 {
   /* margin-top: 1%; */
   margin-bottom: 0.5%;
   text-shadow: 2%;
+  margin-top: 1%;
 }
 
 p {
@@ -136,7 +160,7 @@ p {
   flex-wrap: wrap;
   width: 100%;
   color: lightgrey;
-  font-size: 0.9em;
+  font-size: 0.8em;
   padding: 1.7%;
   font-weight: 400;
   text-shadow: 2.3px 2.3px black;
@@ -145,11 +169,15 @@ p {
   /* margin-left: 2.5%; */
 }
 
+#p1 {
+  font-size: 1.4em;
+}
+
 li {
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 1.2%;
-  font-size: 1.5em;
+  font-size: 1.6em;
   /* margin-bottom: 0.7%; */
   display: flex;
   width: fit-content;
@@ -160,7 +188,7 @@ li {
 
 ul {
   /* list-style-type: initial; */
-  font-size: 1.2em;
+  font-size: 1.1em;
   flex-wrap: wrap;
   flex-direction: column;
   /* text-align: center;
@@ -168,7 +196,7 @@ ul {
 }
 
 a {
-  color: cadetblue;
+  color: aqua;
   font-style: italic;
   font-weight: 600;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -178,7 +206,7 @@ a {
 }
 
 #lightgreen {
-  /* color: #98FB98; */
+  color: #98FB98;
   margin-top: 2%;
   /* font-size: 0.9em; */
 
@@ -196,6 +224,7 @@ h2 {
   text-align: center;
   text-shadow: 4%;
   font-size: 1.5em;
+  text-shadow: 1px 0.5px black;
 }
 
 
@@ -203,7 +232,7 @@ h4 {
   font-size: 1.15em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: cadetblue;
+  color: teal;
   padding-top: 3%;
   text-shadow: 1.3px 0.5px black;
   font-weight: 900;
@@ -211,7 +240,7 @@ h4 {
 
 #images {
   justify-content:space-between;
-  width:78.5%;
+  width: 76%;
 }
 
 #pink {
