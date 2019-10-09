@@ -1,10 +1,10 @@
 {
   "name": "Portfolio_Page",
   "version": "1.0.0",
-  "description": "A brief bio about me, where I provide pertinent information for  job search",
+  "description": "A brief bio about me, where I provide pertinent information for job search",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "heroku": "^7.33.1",
+    "nodejs": "0.0.0",
     "nodemon": "^1.19.2"
   },
   "devDependencies": {
