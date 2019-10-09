@@ -120,7 +120,7 @@ a {
 
 img {
   margin: 0 auto;
-  height: 285px;
+  height: 270px;
   width: 25%;
   position: flex;
   border: #121212 solid 1.5px;
@@ -130,7 +130,7 @@ img {
 }
 
 #art {
-  height: 285px;
+  height: 270px;
   width: 37.5%;
   -webkit-filter: blur(0px);
   opacity: 0.85;
@@ -253,7 +253,7 @@ h4 {
 
 #images {
   justify-content:space-between;
-  width: 77%;
+  width: 75%;
 }
 
 #pink {
