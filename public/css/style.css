@@ -120,8 +120,8 @@ a {
 
 img {
   margin: 0 auto;
-  height: 270px;
-  width: 25%;
+  height: 265px;
+  width: 29.5%;
   position: flex;
   border: #121212 solid 1.5px;
   margin-bottom: 1px;
@@ -130,13 +130,13 @@ img {
 }
 
 #art {
-  height: 270px;
-  width: 37.5%;
+  height: 265px;
+  width: 35%;
   -webkit-filter: blur(0px);
   opacity: 0.85;
 }
 h3 {
-  font-size: 1.6em;
+  font-size: 1.3em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: #040404;
@@ -178,7 +178,7 @@ li {
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 1.2%;
-  font-size: 1.6em;
+  font-size: 1.4em;
   /* margin-bottom: 0.7%; */
   display: flex;
   width: fit-content;
