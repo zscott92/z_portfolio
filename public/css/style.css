@@ -136,17 +136,17 @@ img {
   opacity: 0.85;
 }
 h3 {
-  font-size: 2.7em;
+  font-size: 2.8em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #040404;
+  color: lightslategrey;
   font-weight:1000;
   text-align: center;
   flex-wrap: nowrap;
   /* margin-top: 1%; */
-  margin-bottom: 1.2%;
-  text-shadow: 0.2%;
-  margin-top: 1.2%;
+  margin-bottom: 0.75%;
+  text-shadow: 0.1%;
+  margin-top: 2.5%;
 }
 
 p {
@@ -164,6 +164,8 @@ p {
   padding: 1.8%;
   font-weight: 400;
   text-shadow: 1px 1px black;
+  margin-top: 1%;
+  margin-bottom: 1%;
   position: flex;
   font-size: 20px;
   /* margin-left: 2.5%; */
