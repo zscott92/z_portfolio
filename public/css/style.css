@@ -139,12 +139,12 @@ h3 {
   font-size: 2.8em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: lightslategrey;
+  color: black;
   font-weight:1000;
   text-align: center;
   flex-wrap: nowrap;
   /* margin-top: 1%; */
-  margin-bottom: 0.75%;
+  margin-bottom: 0%;
   text-shadow: 0.1%;
   margin-top: 2.5%;
 }
@@ -278,3 +278,4 @@ b {
   color: darkcyan;
   font-size: 1.3em;
 }
+
