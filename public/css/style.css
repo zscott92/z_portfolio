@@ -136,15 +136,15 @@ img {
   opacity: 0.85;
 }
 h3 {
-  font-size: 2.75em;
+  font-size: 2.7em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #060606;
+  color: #040404;
   font-weight:1000;
   text-align: center;
   flex-wrap: nowrap;
   /* margin-top: 1%; */
-  margin-bottom: 1%;
+  margin-bottom: 1.2%;
   text-shadow: 0.2%;
   margin-top: 1.2%;
 }
@@ -163,7 +163,7 @@ p {
   font-size: 0.65em;
   padding: 1.8%;
   font-weight: 400;
-  text-shadow: 2px 2px black;
+  text-shadow: 1px 1px black;
   position: flex;
   font-size: 20px;
   /* margin-left: 2.5%; */
