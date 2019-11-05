@@ -19,7 +19,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: linear-gradient( black, #101010, black);
+  background-color: #111111;
 }
 
 .vertical-center {
@@ -32,7 +32,7 @@ body {
   width: fit-content;
   -webkit-font-smoothing: antialiased;
   -moz-background-clip: text;
-  padding: 10px;
+  padding: 15px;
   overflow: hidden;
   display: flex;
   flex-direction:column;
@@ -111,7 +111,7 @@ a {
 }
 
 .jumbotron {
-  width: 97%;
+  width: 100vw;
   background-image: url("../images/stars_background.jpg");
   margin-top: 0%;
   height: fit-content;
@@ -218,7 +218,8 @@ a {
     "Lucida Sans", Arial, sans-serif;
     text-shadow: 2px 2px black;
   flex-wrap: nowrap;
-  font-size: 0.80em;
+  font-size: 0.90em;
+  margin-top: 3%;
 }
 
 #lightgreen {
