@@ -129,6 +129,11 @@ img {
   opacity: 0.75;
 }
 
+#ssPhoto {
+  width: 100%;
+  height: auto;
+}
+
 #art {
   height: 265px;
   width: 35%;
