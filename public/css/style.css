@@ -147,7 +147,7 @@ video {
   opacity: 0.85;
 }
 h3 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: lightgray;
@@ -155,8 +155,9 @@ h3 {
   text-align: center;
   flex-wrap: nowrap;
   /* margin-top: 1%; */
-  margin-bottom: 1%;
+  margin-bottom: 2%;
   margin-top: 2.5%;
+  text-decoration: underline;
 }
 
 p {
@@ -186,11 +187,12 @@ p {
 }
 
 li {
+
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 1%;
-  font-size: 1.4em;
-  /* margin-bottom: 0.7%; */
+  font-size: 1.3em;
+  margin-top: 1%;
   display: flex;
   display: grid;
   justify-content: center;
@@ -229,12 +231,7 @@ a {
   text-align: center;
 }
 
-#lightgreen {
-  margin-top: 3%;
-  font-size: 0.7em;
-  margin-bottom: 0%;
-  /* font-size: 0.9em; */
-}
+
 
 #bio {
   position: flex;
@@ -253,7 +250,7 @@ h2 {
 
 
 h4 {
-  font-size: 1.05em;
+  font-size: 1.15em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: darkcyan;
@@ -267,9 +264,6 @@ h4 {
   width: 75%;
 }
 
-#pink {
-  margin-bottom: 2%;
-}
 
 #profile {
   filter: grayscale(100%);
@@ -287,7 +281,7 @@ br {
 
 b {
   color: darkcyan;
-  font-size: 1.3em;
+  font-size: 1.15em;
 }
 
 #info {
