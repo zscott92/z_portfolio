@@ -54,7 +54,6 @@ body {
 
 .container {
   padding: 10px;
-  /* flex-grow:1; */
   background: #444444;
   position: absolute;
   padding: 35px, 10px, 75px, 20px;
@@ -65,16 +64,12 @@ body {
   overflow: scroll; 
   overflow-y: scroll;
   overflow-x: hidden;
-  /* flex-grow: 1; */
 }
 
 .row {
   flex-direction: row;
-  width: 84%;
-  /* flex-direction: unset; */
+  width: 88%;
   margin: 0 auto;
-  padding: 5px;
-  /* width: fit-content; */
   justify-content: center;
   text-align: center;
   margin: 0 auto;
@@ -84,8 +79,6 @@ body {
   margin: 0 auto;
   display: grid;
   justify-content: center;
-  /* align-content: space-between; */
-  padding: 5px;
 } 
 
 h1 {
@@ -152,7 +145,7 @@ h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: lightgray;
-  font-weight:1000;
+  font-weight:800;
   text-align: center;
   flex-wrap: nowrap;
 }
@@ -166,10 +159,9 @@ p {
   text-align: left;
   flex: auto;
   flex-wrap: wrap;
-  width: 100%;
   color: lightgrey;
   font-size: 0.65em;
-  padding: 1.8%;
+  padding: 2%;
   font-weight: 400;
   text-shadow: 0.9px 0.9px black;
   margin-bottom: 1%;
@@ -186,22 +178,13 @@ li {
 
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 1.4%;
+  margin: 1%;
   font-size: 1.3em;
   display: flex;
   display: grid;
   justify-content: center;
   flex-wrap: nowrap;
   text-align: center;
-}
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
 }
 
 ul {
@@ -227,15 +210,9 @@ a {
 
 
 
-#bio {
-  position: flex;
-  padding: 0.5%;
-}
-
 h2 {
   color: lightgray;
   font-weight: 900;
-  margin-top: 1%;
   text-align: center;
   text-shadow: 4%;
   font-size: 1.5em;
@@ -248,10 +225,8 @@ h4 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: darkcyan;
-  margin-top: 2%;
-  text-shadow: 1.5px 0.8px black;
   font-weight: 900;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
 #images {
@@ -269,10 +244,7 @@ h4 {
   color: darkgoldenrod;
   font-size: 0.8em;
 }
-br {
-  display: block;
-  margin: 10px 0;
-}
+
 
 b {
   color: darkcyan;
@@ -280,9 +252,7 @@ b {
   margin: 0 auto;
 }
 
-#info {
-  margin-top: 5%;
-  border-color: black 3px;
-  padding: 1%;
+#sep {
+  background-color: #242424;
 }
 
