@@ -54,12 +54,11 @@ body {
 
 .container {
   padding: 10px;
-  background-color: red;
   /* flex-grow:1; */
-  background: #443344;
+  background: #444444;
   position: absolute;
   padding: 35px, 10px, 75px, 20px;
-  width: 100vw;
+  width: 110vw;
   height: 100vh;
   box-shadow: 0 0 150px 15px black;
   justify-content: space-evenly;
@@ -72,12 +71,13 @@ body {
 .row {
   flex-direction: row;
   width: 84%;
-  flex-direction: unset;
+  /* flex-direction: unset; */
   margin: 0 auto;
   padding: 5px;
   /* width: fit-content; */
   justify-content: center;
   text-align: center;
+  margin: 0 auto;
 }
 
 .col {
@@ -132,6 +132,12 @@ img {
 #ssPhoto {
   width: 100%;
   height: auto;
+  margin-bottom: 2%;
+}
+
+video {
+  width: 100%;
+  height: auto;
 }
 
 #art {
@@ -141,15 +147,15 @@ img {
   opacity: 0.85;
 }
 h3 {
-  font-size: 2.6em;
+  font-size: 1.8em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: black;
+  color: lightgray;
   font-weight:1000;
   text-align: center;
   flex-wrap: nowrap;
   /* margin-top: 1%; */
-  margin-bottom: 0.35%;
+  margin-bottom: 1%;
   margin-top: 2.5%;
 }
 
@@ -182,14 +188,14 @@ p {
 li {
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 1.2%;
+  padding: 1%;
   font-size: 1.4em;
   /* margin-bottom: 0.7%; */
   display: flex;
-  width: fit-content;
   display: grid;
   justify-content: center;
   flex-wrap: nowrap;
+  text-align: center;
 }
 
 hr {
@@ -206,8 +212,8 @@ ul {
   font-size: 1.1em;
   flex-wrap: wrap;
   flex-direction: column;
-  /* text-align: center;
-  justify-content: center; */
+  text-align: center;
+  justify-content: center;
 }
 
 a {
@@ -219,7 +225,8 @@ a {
     text-shadow: 2px 2px black;
   flex-wrap: nowrap;
   font-size: 0.90em;
-  margin-top: 3%;
+  /* margin-top: 3%; */
+  text-align: center;
 }
 
 #lightgreen {
@@ -261,7 +268,7 @@ h4 {
 }
 
 #pink {
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 #profile {
@@ -281,5 +288,11 @@ br {
 b {
   color: darkcyan;
   font-size: 1.3em;
+}
+
+#info {
+  margin-top: 5%;
+  border-color: black 3px;
+  padding: 1%;
 }
 
