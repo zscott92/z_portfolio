@@ -67,9 +67,7 @@ body {
 }
 
 .row {
-  flex-direction: row;
   width: 88%;
-  margin: 0 auto;
   justify-content: center;
   text-align: center;
   margin: 0 auto;
@@ -79,6 +77,7 @@ body {
   margin: 0 auto;
   display: grid;
   justify-content: center;
+  flex-wrap: nowrap;
 } 
 
 h1 {
@@ -161,13 +160,13 @@ p {
   flex-wrap: wrap;
   color: lightgrey;
   font-size: 0.65em;
-  padding: 2%;
+  padding: 2.5%;
   font-weight: 400;
   text-shadow: 0.9px 0.9px black;
-  margin-bottom: 1%;
   position: flex;
-  font-size: 20px;
-  /* margin-left: 2.5%; */
+  font-size: 18px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 #p1 {
@@ -178,22 +177,18 @@ li {
 
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 1%;
+  padding: 1%;
   font-size: 1.3em;
   display: flex;
-  display: grid;
   justify-content: center;
   flex-wrap: nowrap;
   text-align: center;
 }
 
 ul {
-  /* list-style-type: initial; */
   font-size: 1.1em;
-  flex-wrap: wrap;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 5%;
 }
 
 a {
@@ -226,7 +221,7 @@ h4 {
     "Lucida Sans", Arial, sans-serif;
   color: darkcyan;
   font-weight: 900;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
 }
 
 #images {
@@ -247,7 +242,7 @@ h4 {
 
 
 b {
-  color: darkcyan;
+  color: #080808;
   font-size: 1.15em;
   margin: 0 auto;
 }
@@ -256,3 +251,16 @@ b {
   background-color: #242424;
 }
 
+#skillz {
+  text-align: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 1%;
+  font-size: 1.5em;
+}
+
+
+#links {
+  margin: 4%;
+}
