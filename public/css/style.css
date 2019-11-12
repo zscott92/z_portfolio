@@ -256,6 +256,7 @@ b {
   font-size: 1.15em;
   margin: 0 auto;
   font-weight: 800;
+  text-shadow: 5px 3px black;
 }
 
 #sep {
