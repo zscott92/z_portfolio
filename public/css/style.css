@@ -140,14 +140,14 @@ video {
   opacity: 0.85;
 }
 h3 {
-  font-size: 2.2em;
+  font-size: 1.9em;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: lightgray;
   font-weight:800;
   text-align: center;
   flex-wrap: nowrap;
-  margin-bottom: 0.95%;
+  margin-bottom: 1.5%;
   margin-top: 0%;
 }
 
@@ -243,7 +243,7 @@ h4 {
 #orange {
   font-size: 0.8em;
   color: #171717;
-  margin-top: 0.5%;
+  margin-top: 1%;
 }
 
 #orangelinks {
@@ -254,7 +254,7 @@ h4 {
 
 b {
   color: darkgoldenrod;
-  font-size: 1.15em;
+  font-size: 1.1em;
   margin: 0 auto;
   font-weight: 800;
   text-shadow: 2px 1px black;
@@ -270,7 +270,7 @@ b {
   flex-wrap: nowrap;
   width: 100%;
   padding: 1%;
-  font-size: 1.7em;
+  font-size: 1.35em;
 }
 
 
