@@ -31,7 +31,6 @@ body {
   margin-top: 0;
   width: fit-content;
   -webkit-font-smoothing: antialiased;
-  -moz-background-clip: text;
   padding: 15px;
   overflow: hidden;
   display: flex;
